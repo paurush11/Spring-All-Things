@@ -12,6 +12,7 @@ class Pojo {
 }
 class JavaBean implements Serializable { // Enterprise Java Bean
 	
+	private static final long serialVersionUID = -8000502669206296537L;
 	public String getName() {
 		return name;
 	}
