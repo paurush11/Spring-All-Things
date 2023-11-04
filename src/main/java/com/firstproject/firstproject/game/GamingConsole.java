@@ -1,5 +1,6 @@
 package com.firstproject.firstproject.game;
 
+
 public interface GamingConsole {
 	void up();
 	void down();

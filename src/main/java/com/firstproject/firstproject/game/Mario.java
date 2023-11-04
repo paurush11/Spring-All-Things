@@ -1,5 +1,10 @@
 package com.firstproject.firstproject.game;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+@Qualifier
 public class Mario implements GamingConsole{
 	@Override
 	public void up() {
